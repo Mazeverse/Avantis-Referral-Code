@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   margin: 0;
@@ -20,10 +18,7 @@ body {
   text-align: center;
 }
 
-h1 {
-  font-size: 28px;
-  margin-bottom: 8px;
-}
+h1 { font-size: 28px; margin-bottom: 8px; }
 
 .subtitle {
   font-size: 14px;
@@ -61,12 +56,9 @@ h1 {
   overflow-x: auto;
 }
 
-.value.link {
-  font-size: 13px;
-}
+.value.link { font-size: 13px; }
 
-button,
-.go {
+button, .go {
   padding: 10px 14px;
   border-radius: 8px;
   border: none;
@@ -77,10 +69,7 @@ button,
   text-decoration: none;
 }
 
-button:hover,
-.go:hover {
-  opacity: 0.85;
-}
+button:hover, .go:hover { opacity: 0.85; }
 
 .footer {
   margin-top: 24px;
